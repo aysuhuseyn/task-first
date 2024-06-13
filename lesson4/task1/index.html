@@ -7,9 +7,12 @@
   </head>
   <body>
     <h1>Login Form</h1>
+    <form action="">
     <input type="email" placeholder="Email və ya telefon" />
     <input type="password" placeholder="Şifrə" />
     <button>Daxil Ol</button> <br />
+  </form>
+  <form action="">
     <h1>Application(Müraciət) Form</h1>
     <label for="NameInput">Ad Soyad:</label>
     <input id="NameInput" type="text" /> <br />
@@ -19,9 +22,9 @@
     <br />
     <fieldset>
       <legend>Cins</legend>
-      <input id="inpBoy" type="radio" />
+      <input name="Gender" id="inpBoy" type="radio" />
       <label for="inpBoy">Kişi</label>
-      <input id="inpGirl" type="radio" />
+      <input name="Gender" id="inpGirl" type="radio" />
       <label for="inpGirl">Qadın</label>
     </fieldset>
     <br />
@@ -48,13 +51,13 @@
  <label for="En">En</label>
  <label for="Ru">Ru</label>
  <label for="Tr">Tr</label> <br>
-      <input id="Az" type="checkbox" />
-      <input id="En" type="checkbox" />
-      <input id="Ru" type="checkbox" />
-      <input id="Tr" type="checkbox" /> <br />
+      <input id="Az" type="checkbox" checked />
+      <input id="En" type="checkbox" checked/>
+      <input id="Ru" type="checkbox" checked />
+      <input id="Tr" type="checkbox" checked /> <br />
       <br />
-      <input id="inpAzcheckbox" type="checkbox" />
-      <label for="inpAzcheckbox">Az</label>
+      <input id="inpAzcheckbox" type="checkbox" checked />
+      <label for="inpAzcheckbox" >Az</label>
       <input id="inpEncheckbox" type="checkbox" />
       <label for="inpEncheckbox">En</label>
       <input id="inpRucheckbox" type="checkbox" />
@@ -73,5 +76,6 @@
     <br />
     <button>temizle</button>
     <button>Gonder</button>
+  </form>
   </body>
 </html>
