@@ -1,0 +1,45 @@
+/* Cascading Style Sheets */
+
+/*
+ 1.elementin ad;   e.g -- p
+2. class- vasitesi ilə   e.g--. blue
+3. id- ilə  e.g --- #green
+id>class> element name
+*/
+
+#green{
+    color: green;
+}
+
+.blue{
+ color: blue;
+}
+/* 
+h1,h2,h3{
+
+}
+
+div>p -- parent elementi div olsun
+
+div p - parent elementi olmasada olar axırda p-nin içində olsun.
+*/
+
+/* span.blue 
+elə bil span elementi tap ki class-ı blue olsun.
+
+p.actice
+
+*/
+/* div + p{} 
+div-dən sonra ilk gələn p elementi
+*/
+
+/* div ~ p{} 
+divdən sonra gələn bütün p-lər
+
+
+* -- universal selector
+*/
+
+
+/* css spexificity */
