@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bg_city_img {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 800px;
+  background-position: center;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  opacity: 0.7;
+}
+#first_city_pic {
+  background-image: url(../img/image1[1].jpg);
+}
+#first_city_pic span {
+  border: 20px solid rgb(0, 0, 0);
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 0);
+  color: antiquewhite;
+  font-size: 30px;
+  top: 50%;
+  position: relative;
+  letter-spacing: 6px;
+}
+section {
+  background-color: rgb(237, 231, 223);
+  color: rgb(97, 95, 95);
+  text-align: center;
+  border: solid rgb(237, 231, 223);
+  border-width: 50px 70px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  border-bottom-width: 70px;
+}
+section h2 {
+  line-height: 3;
+}
+
+#second_city_pic {
+  background-image: url(../img/image2[1].jpg);
+  height: 400px !important;
+}
+
+#second_city_pic span {
+  color: azure;
+  text-transform: uppercase;
+  font-size: 30px;
+  top: 50%;
+  position: relative;
+  letter-spacing: 6px;
+}
+
+.section_bg_black {
+  background-color: rgb(31, 23, 50);
+  border-color:rgb(31, 23, 50);
+  color: blanchedalmond;
+}
+#third_city_pic{
+    background-image:url(../img/image3[1].jpg);
+    height: 400px !important;
+}
+
+
+#third_city_pic span{
+    color: azure;
+    text-transform: uppercase;
+    font-size: 30px;
+    top: 50%;
+    position: relative;
+    letter-spacing: 6px;
+  }
+
+
+  
