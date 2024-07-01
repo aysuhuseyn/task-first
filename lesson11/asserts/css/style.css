@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #f44336;
+  position: relative;
+  padding: 10px;
+  box-shadow: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 25px;
+  margin-left: -11px;
+  font-size: 20px;
+}
+
+#home_link {
+  color: black !important;
+  background-color: white !important;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+header #start_page {
+  background-color: #f44336;
+  color: white;
+  padding: 120px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+header #start_page span {
+  text-transform: uppercase;
+  margin: 15px 15px;
+  font-size: 64px;
+  display: inline-block;
+}
+
+header #start_page p {
+  text-transform: uppercase;
+  margin: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  /* display: inline-block; */
+}
+
+header #start_page button{
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 14px 16px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 30px;
+}
+header #start_page button:hover{
+    background-color: rgb(223, 215, 215);
+    color: black;
+}
+
+section{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 5% 10%;
+}
+figure svg{
+    font-size: 160px;
+}
+section div{
+    width: 40%;
+ }
+ section div h1 + p {
+    color: black !important;
+    padding: 30px 0px;
+ }
+
+ section div p{
+    color: gray;
+ }
+
+#quote_section{
+   
+    color: white;
+    background-color:gray ;
+}
+footer figure svg{
+    position: relative;
+    width: 25px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin-top: -63px;
+    margin-left: 120px;
+    color: gray;
+}
+
+footer span a{
+  color:gray
+}
+
