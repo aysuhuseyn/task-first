@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  --Caption-- */
+#Class_table_name {
+  text-align: center;
+  font-size: 27px;
+  margin: 135px 0 32px;
+}
+#Class_table_name h3 {
+  font-size: 27px;
+  padding-bottom: 70px;
+  font-weight: 300;
+}
+#Class_table_name span {
+  font-size: 24px;
+}
+
+/* --Border-- */
+
+table,
+tr,
+td {
+  border: 1px solid rgba(124, 124, 124, 0.381);
+  border-collapse: collapse;
+}
+
+/* --Table And Heading-- */
+table {
+  margin: 0 auto;
+  width: 80%;
+  table-layout: fixed;
+}
+
+thead th {
+  padding: 30px;
+}
+
+tr {
+  text-align: center;
+}
+
+td{
+    padding: 30px;
+}
+/* --img  SVG-- */
+img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+svg {
+  width: 10px;
+  height: 10px;
+  opacity: 0.4;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(236, 107, 107);
+}
+a b{
+    color:rgb(66, 65, 65);
+}
+
+.table_footer a{
+color: black;
+}
+.table_footer a:hover{
+  color: pink;
+}
+
+table td:hover:not(:empty){
+  background-color: rgba(187, 185, 185, 0.336);
+}
+
+
