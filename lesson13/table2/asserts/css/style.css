@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --Caption-- */
+div{
+    text-align: center;
+    font-size: 28px;
+    margin: 40px;
+    margin-top: 70px;
+}
+
+/* Table */
+table, tr,th,td{
+    padding: 30px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+table td{
+    padding:20px 30px;
+}
+
+tr:nth-child(odd):not(thead tr){
+    background-color: rgba(172, 168, 168, 0.352);
+}
+
+thead td{
+    padding: 30px !important;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* --Buttons-- */
+.Progress_button_row button{
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Progress_open_row button{
+    background-color: #ffc107;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.Progress_on_hold_row button{
+    background-color: #dc3545;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* --Hover-- */
+.Progress_button_row button:hover{
+    background-color: #154722;
+    cursor: pointer;
+}
+
+.Progress_open_row button:hover{
+    background-color: #5c4607;
+    cursor: pointer;
+}
+
+.Progress_on_hold_row button:hover{
+    background-color: #521319;
+    cursor: pointer;
+}
