@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/background_img_flowers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table,
+tr,
+td,
+th {
+  padding: 20px 30px;
+}
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: white;
+  overflow: hidden;
+  margin: 30px auto;
+}
+thead tr {
+  background-color: #36304a;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+tr:nth-child(even):not(thead tr) {
+  background-color: rgba(181, 181, 181, 0.482);
+}
+tr:not(thead tr) {
+  color: rgb(130, 129, 129);
+}
+tr:hover:not(thead tr){
+    background-color: rgba(181, 181, 181, 0.482);
+    cursor: pointer;
+}
